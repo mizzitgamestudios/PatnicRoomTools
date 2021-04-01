@@ -1,0 +1,120 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "DataTypeHandler",
+"language": "GDScript",
+"path": "res://Src/Util/DataTypeHandler.gd"
+}, {
+"base": "Node",
+"class": "EffectCache",
+"language": "GDScript",
+"path": "res://Src/Parsing/Input.gd"
+}, {
+"base": "MorphBox",
+"class": "EffectMorphBox",
+"language": "GDScript",
+"path": "res://Src/Input/MorphBox/EffectMorphBox.gd"
+}, {
+"base": "Node",
+"class": "FileHandler",
+"language": "GDScript",
+"path": "res://Src/Util/Filehandler.gd"
+}, {
+"base": "Node",
+"class": "FormFieldAttributes",
+"language": "GDScript",
+"path": "res://Src/Parsing/PanelAttributes.gd"
+}, {
+"base": "Node",
+"class": "FormFiller",
+"language": "GDScript",
+"path": "res://Src/Dynamic Form Generator/FormFiller.gd"
+}, {
+"base": "RichTextLabel",
+"class": "InputEffectRTL",
+"language": "GDScript",
+"path": "res://Src/Input/RTL/inputEffectRTL.gd"
+}, {
+"base": "Node",
+"class": "InputHandler",
+"language": "GDScript",
+"path": "res://Src/Util/InputHandler.gd"
+}, {
+"base": "Panel",
+"class": "InputPanel",
+"language": "GDScript",
+"path": "res://Src/Input/Panel/PanelInputHandler.gd"
+}, {
+"base": "RichTextLabel",
+"class": "InputRTL",
+"language": "GDScript",
+"path": "res://Src/Input/RTL/inputComponentRTL.gd"
+}, {
+"base": "OptionButton",
+"class": "MorphBox",
+"language": "GDScript",
+"path": "res://Src/Input/MorphBox/MorphBox.gd"
+}, {
+"base": "Node",
+"class": "Parent_Form",
+"language": "GDScript",
+"path": "res://Src/Dynamic Form Generator/simpleForm.gd"
+}, {
+"base": "Node",
+"class": "Syntax_Effect",
+"language": "GDScript",
+"path": "res://Src/Single Scripts/Syntax.gd"
+} ]
+_global_script_class_icons={
+"DataTypeHandler": "",
+"EffectCache": "",
+"EffectMorphBox": "",
+"FileHandler": "",
+"FormFieldAttributes": "",
+"FormFiller": "",
+"InputEffectRTL": "",
+"InputHandler": "",
+"InputPanel": "",
+"InputRTL": "",
+"MorphBox": "",
+"Parent_Form": "",
+"Syntax_Effect": ""
+}
+
+[application]
+
+config/name="Form"
+run/main_scene="res://Src/Main.tscn"
+
+[autoload]
+
+Utils="*res://Src/Single Scripts/Util.gd"
+Effect_Getter="*res://Src/Effect/getter.gd"
+Parser="*res://Src/Single Scripts/Parser.gd"
+Caching="*res://Src/Parsing/Caching.gd"
+ENUM="*res://Src/Single Scripts/ENUM.gd"
+SYNTAX="*res://Src/Single Scripts/Syntax.gd"
+
+[display]
+
+window/size/width=1980
+window/size/height=1020
+window/size/resizable=false
+window/size/fullscreen=true
+
+[input]
+
+leftClick={
+"deadzone": 0.49,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}

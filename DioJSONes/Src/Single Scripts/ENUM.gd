@@ -1,0 +1,17 @@
+extends Node
+
+
+enum EFFECT_TYPE{ 
+	STAT_MOD,
+	CONDITION,
+	UNSELECTED
+	}
+
+
+
+var SYNTAX_KEYWORD = {
+	"TRIGGER" : ["BASE","SPECIFIC"],
+	"SPACE"   : ["MEDIUM","SOURCE"],
+	"EFFECT"  : ["STAT_MOD","CONDITION"]
+}
+

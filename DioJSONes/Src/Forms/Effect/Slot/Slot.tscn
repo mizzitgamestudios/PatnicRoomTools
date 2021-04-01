@@ -1,0 +1,491 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Src/Forms/Effect/Unit/Effect.gd" type="Script" id=1]
+[ext_resource path="res://Src/Forms/Effect/Unit/Space.gd" type="Script" id=2]
+[ext_resource path="res://Src/Forms/Effect/Unit/Trigger.gd" type="Script" id=3]
+[ext_resource path="res://Src/Input/RTL/inputEffectRTL.gd" type="Script" id=4]
+[ext_resource path="res://Src/Forms/Effect/EffectButton.gd" type="Script" id=5]
+[ext_resource path="res://Media/presets/formEffectDefualt.tres" type="DynamicFont" id=6]
+[ext_resource path="res://Media/new_dynamicfont.tres" type="DynamicFont" id=7]
+[ext_resource path="res://Src/Input/MorphBox/MorphBox.gd" type="Script" id=8]
+[ext_resource path="res://Media/options.tres" type="StyleBox" id=9]
+[ext_resource path="res://Media/presets/EffectButton/Condition.tres" type="StyleBox" id=10]
+[ext_resource path="res://Src/Input/MorphBox/EffectMorphBox.gd" type="Script" id=11]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.133333, 0.717647, 0.294118, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0.682353, 0.741176, 0.14902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.0784314, 0.45098, 0.443137, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Space" type="Control" parent="."]
+margin_left = 64.0
+margin_top = 584.0
+margin_right = 104.0
+margin_bottom = 624.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Reach" type="Control" parent="Space"]
+margin_left = -59.0
+margin_top = 24.0
+margin_right = -59.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="Space/Reach"]
+margin_left = 72.0
+margin_top = -3.0
+margin_right = 240.0
+margin_bottom = 37.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="input" type="RichTextLabel" parent="Space/Reach/Panel"]
+margin_left = 8.0
+margin_top = 3.0
+margin_right = 176.0
+margin_bottom = 43.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+meta_underlined = false
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Space/Reach"]
+margin_left = 11.0
+margin_top = -40.0
+margin_right = 315.0
+margin_bottom = -8.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Reach[/center]"
+meta_underlined = false
+text = "Reach"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Medium" type="Control" parent="Space"]
+margin_top = 120.0
+margin_bottom = 120.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Space/Medium"]
+margin_left = -40.0
+margin_top = 16.0
+margin_right = 128.0
+margin_bottom = 48.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "Medium"
+meta_underlined = false
+text = "Medium"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Space/Medium"]
+margin_left = 72.0
+margin_top = 8.0
+margin_right = 240.0
+margin_bottom = 56.0
+custom_styles/normal = ExtResource( 9 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Source" type="Control" parent="Space"]
+margin_top = 176.0
+margin_bottom = 176.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Space/Source"]
+margin_left = -40.0
+margin_top = 16.0
+margin_right = 128.0
+margin_bottom = 48.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "Source"
+meta_underlined = false
+text = "Source"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Space/Source"]
+margin_left = 72.0
+margin_top = 8.0
+margin_right = 240.0
+margin_bottom = 56.0
+custom_styles/normal = ExtResource( 9 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="M-Type" type="Control" parent="Space"]
+margin_top = 232.0
+margin_bottom = 232.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Space/M-Type"]
+margin_left = -40.0
+margin_top = 16.0
+margin_right = 128.0
+margin_bottom = 48.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "M-Type"
+meta_underlined = false
+text = "M-Type"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Space/M-Type"]
+margin_left = 72.0
+margin_top = 8.0
+margin_right = 240.0
+margin_bottom = 56.0
+custom_styles/normal = ExtResource( 9 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Effect" type="Control" parent="."]
+margin_left = -16.0
+margin_top = 584.0
+margin_right = 24.0
+margin_bottom = 624.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CheckButton" type="Button" parent="Effect"]
+margin_left = 1136.0
+margin_top = 24.0
+margin_right = 1307.0
+margin_bottom = 72.0
+custom_styles/normal = ExtResource( 10 )
+custom_fonts/font = ExtResource( 7 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Effect"]
+margin_left = 1136.0
+margin_top = 32.0
+margin_right = 1304.0
+margin_bottom = 80.0
+custom_fonts/normal_font = ExtResource( 7 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+meta_underlined = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Effect"]
+margin_left = 976.0
+margin_top = -17.0
+margin_right = 1464.0
+margin_bottom = 15.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Type[/center]"
+meta_underlined = false
+text = "Type"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name2" type="RichTextLabel" parent="Effect"]
+margin_left = 976.0
+margin_top = 79.0
+margin_right = 1464.0
+margin_bottom = 111.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Type[/center]"
+meta_underlined = false
+text = "Type"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pairs" type="Control" parent="Effect"]
+margin_top = -24.0
+margin_right = 40.0
+margin_bottom = 16.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0" type="Control" parent="Effect/Pairs"]
+margin_left = 978.0
+margin_top = 136.0
+margin_right = 978.0
+margin_bottom = 136.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Effect/Pairs/0"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Control" parent="Effect/Pairs"]
+margin_left = 992.0
+margin_top = 176.0
+margin_right = 992.0
+margin_bottom = 176.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Effect/Pairs/1"]
+margin_left = -14.0
+margin_top = 16.0
+margin_right = 154.0
+margin_bottom = 64.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Control" parent="Effect/Pairs"]
+margin_left = 978.0
+margin_top = 248.0
+margin_right = 978.0
+margin_bottom = 248.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Effect/Pairs/2"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Control" parent="Effect/Pairs"]
+margin_left = 978.0
+margin_top = 304.0
+margin_right = 978.0
+margin_bottom = 304.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Effect/Pairs/3"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Trigger" type="Control" parent="."]
+margin_left = -19.0
+margin_top = 568.0
+margin_right = 21.0
+margin_bottom = 608.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Basic" type="Control" parent="Trigger"]
+margin_left = 456.0
+margin_right = 456.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name" type="RichTextLabel" parent="Trigger/Basic"]
+margin_left = -45.0
+margin_right = 451.0
+margin_bottom = 32.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Basic[/center]"
+meta_underlined = false
+text = "Basic"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="name2" type="RichTextLabel" parent="Trigger/Basic"]
+margin_left = -45.0
+margin_top = 96.0
+margin_right = 451.0
+margin_bottom = 128.0
+custom_fonts/normal_font = ExtResource( 6 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Specific[/center]"
+meta_underlined = false
+text = "Specific"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="OptionButton" parent="Trigger/Basic"]
+margin_left = 120.0
+margin_top = 32.0
+margin_right = 288.0
+margin_bottom = 80.0
+custom_styles/normal = ExtResource( 9 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pairs" type="Control" parent="Trigger"]
+margin_left = -557.0
+margin_top = -8.0
+margin_right = -517.0
+margin_bottom = 32.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0" type="Control" parent="Trigger/Pairs"]
+margin_left = 978.0
+margin_top = 136.0
+margin_right = 978.0
+margin_bottom = 136.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Trigger/Pairs/0"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Control" parent="Trigger/Pairs"]
+margin_left = 992.0
+margin_top = 176.0
+margin_right = 992.0
+margin_bottom = 176.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Trigger/Pairs/1"]
+margin_left = -14.0
+margin_top = 16.0
+margin_right = 154.0
+margin_bottom = 64.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Control" parent="Trigger/Pairs"]
+margin_left = 978.0
+margin_top = 248.0
+margin_right = 978.0
+margin_bottom = 248.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Trigger/Pairs/2"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Control" parent="Trigger/Pairs"]
+margin_left = 978.0
+margin_top = 304.0
+margin_right = 978.0
+margin_bottom = 304.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="optionButton" type="OptionButton" parent="Trigger/Pairs/3"]
+margin_right = 168.0
+margin_bottom = 48.0
+custom_styles/normal = SubResource( 2 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_up" from="Effect/CheckButton" to="Effect/CheckButton" method="toggleButton"]
+[connection signal="pressed" from="Effect/CheckButton" to="Effect/CheckButton" method="toggleButton"]
+[connection signal="item_selected" from="Effect/Pairs/0/optionButton" to="Effect/Pairs/0/optionButton" method="_on_Iten_Selected"]
+[connection signal="pressed" from="Effect/Pairs/0/optionButton" to="Effect/Pairs/0/optionButton" method="_on_button_pressed"]
+[connection signal="item_selected" from="Effect/Pairs/1/optionButton" to="Effect/Pairs/1/optionButton" method="_on_Iten_Selected"]
+[connection signal="item_selected" from="Effect/Pairs/2/optionButton" to="Effect/Pairs/2/optionButton" method="_on_Iten_Selected"]
+[connection signal="pressed" from="Effect/Pairs/2/optionButton" to="Effect" method="showOptionsByClick" binds= [ 2 ]]
+[connection signal="item_selected" from="Effect/Pairs/3/optionButton" to="Effect/Pairs/3/optionButton" method="_on_Iten_Selected"]
+[connection signal="pressed" from="Effect/Pairs/3/optionButton" to="Effect" method="showOptionsByClick" binds= [ 3 ]]
+[connection signal="item_selected" from="Trigger/Pairs/0/optionButton" to="Trigger/Pairs/0/optionButton" method="_on_ItemSelected"]
+[connection signal="item_selected" from="Trigger/Pairs/1/optionButton" to="Trigger/Pairs/1/optionButton" method="_on_optionButton_item_selected"]
+[connection signal="pressed" from="Trigger/Pairs/1/optionButton" to="Effect" method="showOptionsByClick" binds= [ 1 ]]
+[connection signal="item_selected" from="Trigger/Pairs/2/optionButton" to="Trigger/Pairs/2/optionButton" method="_on_optionButton_item_selected"]
+[connection signal="pressed" from="Trigger/Pairs/2/optionButton" to="Effect" method="showOptionsByClick" binds= [ 2 ]]
+[connection signal="item_selected" from="Trigger/Pairs/3/optionButton" to="Trigger/Pairs/3/optionButton" method="_on_optionButton_item_selected"]
+[connection signal="pressed" from="Trigger/Pairs/3/optionButton" to="Effect" method="showOptionsByClick" binds= [ 3 ]]

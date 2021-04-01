@@ -1,0 +1,1779 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\Daniel\\Documents\\GitHub\\PatnicRoomTools",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-03-30 07:15:18",
+            "filesum": 120,
+            "codesum": 7949,
+            "commentsum": 237,
+            "blanksum": 1886,
+            "statistics": {
+                ".md": {
+                    "code": 57,
+                    "comment": 2,
+                    "blank": 30
+                },
+                ".json": {
+                    "code": 903,
+                    "comment": 72,
+                    "blank": 188
+                },
+                ".gd": {
+                    "code": 340,
+                    "comment": 0,
+                    "blank": 265
+                },
+                ".godot": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".tscn": {
+                    "code": 1336,
+                    "comment": 0,
+                    "blank": 191
+                },
+                ".import": {
+                    "code": 717,
+                    "comment": 0,
+                    "blank": 123
+                },
+                ".html": {
+                    "code": 697,
+                    "comment": 41,
+                    "blank": 117
+                },
+                ".tres": {
+                    "code": 37,
+                    "comment": 0,
+                    "blank": 7
+                },
+                ".txt": {
+                    "code": 29,
+                    "comment": 1,
+                    "blank": 12
+                },
+                ".js": {
+                    "code": 372,
+                    "comment": 89,
+                    "blank": 203
+                },
+                ".css": {
+                    "code": 2737,
+                    "comment": 27,
+                    "blank": 725
+                },
+                ".svg": {
+                    "code": 655,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".php": {
+                    "code": 55,
+                    "comment": 5,
+                    "blank": 19
+                },
+                ".md5": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 6
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\actor.png-6efbd42e554d1b6dc4f467d02934de14.md5"
+                },
+                {
+                    "filename": "Form\\.import\\actor.png-6efbd42e554d1b6dc4f467d02934de14.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\icon.png-487276ed1e3a0c39cad0279d744ee560.md5"
+                },
+                {
+                    "filename": "Form\\.import\\icon.png-487276ed1e3a0c39cad0279d744ee560.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\items.png-f5e82635465b87827638f6fb83424dce.md5"
+                },
+                {
+                    "filename": "Form\\.import\\items.png-f5e82635465b87827638f6fb83424dce.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\kit.png-f64a9c8134c430df76cb8391c6657b6c.md5"
+                },
+                {
+                    "filename": "Form\\.import\\kit.png-f64a9c8134c430df76cb8391c6657b6c.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\mainMenue.png-e718e3549b6a514e5126eb1b23e12022.md5"
+                },
+                {
+                    "filename": "Form\\.import\\mainMenue.png-e718e3549b6a514e5126eb1b23e12022.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\Title.png-af0db18b052de75d69ab4f10c6ca7322.md5"
+                },
+                {
+                    "filename": "Form\\.import\\Title.png-af0db18b052de75d69ab4f10c6ca7322.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 53,
+                    "code": 499,
+                    "comment": 0,
+                    "filename": "Form\\config\\components.json"
+                },
+                {
+                    "blank": 24,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Form\\config\\forms.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Form\\default_env.tres"
+                },
+                {
+                    "blank": 26,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\RACE\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\RACE\\Form.tscn"
+                },
+                {
+                    "blank": 25,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\ROLE\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\ROLE\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\SPEACIALTY\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\SPEACIALTY\\Form.tscn"
+                },
+                {
+                    "blank": 24,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Gear\\Items\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Gear\\Items\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\APPENDIX\\Form.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 146,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\APPENDIX\\Form.tscn"
+                },
+                {
+                    "blank": 29,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\BASE\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\BASE\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\MOD\\Form.gd"
+                },
+                {
+                    "blank": 20,
+                    "code": 136,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\MOD\\Form.tscn"
+                },
+                {
+                    "blank": 10,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRow.tscn"
+                },
+                {
+                    "blank": 18,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRowAttributes.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRowSetUp.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\PanelInputHandler.gd"
+                },
+                {
+                    "filename": "Form\\icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\icon.png.import"
+                },
+                {
+                    "blank": 19,
+                    "code": 154,
+                    "comment": 0,
+                    "filename": "Form\\Main.tscn"
+                },
+                {
+                    "blank": 9,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Form\\MainMenu.gd"
+                },
+                {
+                    "filename": "Form\\Media\\actor.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\actor.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\FixedSysTemplate.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Form\\Media\\items.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\items.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\kit.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\kit.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\mainMenue.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\mainMenue.png.import"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Form\\Media\\new_dynamicfont.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\backToMainManueButton.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\IntegerInput.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\StringInput.tres"
+                },
+                {
+                    "filename": "Form\\Media\\Title.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\Title.png.import"
+                },
+                {
+                    "blank": 21,
+                    "code": 150,
+                    "comment": 0,
+                    "filename": "Form\\Node2D.tscn"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\project.godot"
+                },
+                {
+                    "blank": 36,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "Form\\Util.gd"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 48,
+                    "code": 54,
+                    "comment": 12,
+                    "filename": "VSCode Integration\\Keybindings.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 4,
+                    "filename": "VSCode Integration\\launch.json"
+                },
+                {
+                    "blank": 30,
+                    "code": 56,
+                    "comment": 2,
+                    "filename": "VSCode Integration\\README.md"
+                },
+                {
+                    "blank": 44,
+                    "code": 212,
+                    "comment": 56,
+                    "filename": "VSCode Integration\\Settings.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "VSCode Integration\\VSCdoe Snippets.json"
+                },
+                {
+                    "blank": 23,
+                    "code": 111,
+                    "comment": 5,
+                    "filename": "Websides\\About.html"
+                },
+                {
+                    "blank": 19,
+                    "code": 55,
+                    "comment": 5,
+                    "filename": "Websides\\assets\\contact-form-process.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "Websides\\assets\\css\\font-awesome.min.css"
+                },
+                {
+                    "filename": "Websides\\assets\\css\\images\\overlay.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\css\\images\\overlay.png.import"
+                },
+                {
+                    "blank": 147,
+                    "code": 593,
+                    "comment": 8,
+                    "filename": "Websides\\assets\\css\\main.css"
+                },
+                {
+                    "blank": 578,
+                    "code": 2143,
+                    "comment": 15,
+                    "filename": "Websides\\assets\\css\\responsive.css"
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 655,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.svg"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.svg.import"
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\FontAwesome.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "Websides\\assets\\js\\jquery.min.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 45,
+                    "comment": 12,
+                    "filename": "Websides\\assets\\js\\main.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "Websides\\assets\\js\\skel.min.js"
+                },
+                {
+                    "blank": 187,
+                    "code": 325,
+                    "comment": 75,
+                    "filename": "Websides\\assets\\js\\util.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 83,
+                    "comment": 3,
+                    "filename": "Websides\\Blogpost.html"
+                },
+                {
+                    "blank": 14,
+                    "code": 67,
+                    "comment": 4,
+                    "filename": "Websides\\ContactUs.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 112,
+                    "comment": 4,
+                    "filename": "Websides\\Docs.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 127,
+                    "comment": 15,
+                    "filename": "Websides\\Home.html"
+                },
+                {
+                    "filename": "Websides\\images\\banner - Kopie.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner - Kopie.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner klein.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner klein.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\flowerpot.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\flowerpot.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\HomeTitle.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\HomeTitle.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\JSON.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\JSON.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\overworld.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\overworld.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic01.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic01.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic02.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic02.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic02.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic02.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic03.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic03.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic05.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic05.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic06.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic06.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic07.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic07.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pict1.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pict1.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\pict2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pict2.png.import"
+                },
+                {
+                    "blank": 12,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "Websides\\LICENSE.txt"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 6,
+                    "filename": "Websides\\Patch.html"
+                },
+                {
+                    "blank": 24,
+                    "code": 124,
+                    "comment": 4,
+                    "filename": "Websides\\Team.html"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-03-30 15:23:32",
+            "filesum": 136,
+            "codesum": 9024,
+            "commentsum": 239,
+            "blanksum": 2162,
+            "statistics": {
+                ".godot": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".gd": {
+                    "code": 615,
+                    "comment": 2,
+                    "blank": 447
+                },
+                ".md": {
+                    "code": 57,
+                    "comment": 2,
+                    "blank": 30
+                },
+                ".js": {
+                    "code": 372,
+                    "comment": 89,
+                    "blank": 203
+                },
+                ".import": {
+                    "code": 717,
+                    "comment": 0,
+                    "blank": 123
+                },
+                ".css": {
+                    "code": 2737,
+                    "comment": 27,
+                    "blank": 725
+                },
+                ".svg": {
+                    "code": 655,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".tscn": {
+                    "code": 2135,
+                    "comment": 0,
+                    "blank": 285
+                },
+                ".php": {
+                    "code": 55,
+                    "comment": 5,
+                    "blank": 19
+                },
+                ".txt": {
+                    "code": 29,
+                    "comment": 1,
+                    "blank": 12
+                },
+                ".html": {
+                    "code": 697,
+                    "comment": 41,
+                    "blank": 117
+                },
+                ".tres": {
+                    "code": 37,
+                    "comment": 0,
+                    "blank": 7
+                },
+                ".json": {
+                    "code": 904,
+                    "comment": 72,
+                    "blank": 188
+                },
+                ".md5": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 6
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\actor.png-6efbd42e554d1b6dc4f467d02934de14.md5"
+                },
+                {
+                    "filename": "Form\\.import\\actor.png-6efbd42e554d1b6dc4f467d02934de14.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\icon.png-487276ed1e3a0c39cad0279d744ee560.md5"
+                },
+                {
+                    "filename": "Form\\.import\\icon.png-487276ed1e3a0c39cad0279d744ee560.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\items.png-f5e82635465b87827638f6fb83424dce.md5"
+                },
+                {
+                    "filename": "Form\\.import\\items.png-f5e82635465b87827638f6fb83424dce.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\kit.png-f64a9c8134c430df76cb8391c6657b6c.md5"
+                },
+                {
+                    "filename": "Form\\.import\\kit.png-f64a9c8134c430df76cb8391c6657b6c.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\mainMenue.png-e718e3549b6a514e5126eb1b23e12022.md5"
+                },
+                {
+                    "filename": "Form\\.import\\mainMenue.png-e718e3549b6a514e5126eb1b23e12022.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\.import\\Title.png-af0db18b052de75d69ab4f10c6ca7322.md5"
+                },
+                {
+                    "filename": "Form\\.import\\Title.png-af0db18b052de75d69ab4f10c6ca7322.stex",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 53,
+                    "code": 501,
+                    "comment": 0,
+                    "filename": "Form\\config\\components.json"
+                },
+                {
+                    "blank": 24,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "Form\\config\\forms.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Form\\default_env.tres"
+                },
+                {
+                    "blank": 28,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\RACE\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\RACE\\Form.tscn"
+                },
+                {
+                    "blank": 27,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\ROLE\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\ROLE\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\SPEACIALTY\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Actors\\SPEACIALTY\\Form.tscn"
+                },
+                {
+                    "blank": 12,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Effect\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Effect\\Form.tscn"
+                },
+                {
+                    "blank": 38,
+                    "code": 347,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Effect\\Slot\\Slot.tscn"
+                },
+                {
+                    "blank": 14,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Effect\\Slot\\Space.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Effect\\timeslotsManager.gd"
+                },
+                {
+                    "blank": 26,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Gear\\Items\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Gear\\Items\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\APPENDIX\\Form.gd"
+                },
+                {
+                    "blank": 24,
+                    "code": 173,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\APPENDIX\\Form.tscn"
+                },
+                {
+                    "blank": 30,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\BASE\\Form.gd"
+                },
+                {
+                    "blank": 32,
+                    "code": 230,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\BASE\\Form.tscn"
+                },
+                {
+                    "blank": 23,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\MOD\\Form.gd"
+                },
+                {
+                    "blank": 23,
+                    "code": 163,
+                    "comment": 0,
+                    "filename": "Form\\Form\\Kit\\MOD\\Form.tscn"
+                },
+                {
+                    "blank": 10,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRow.tscn"
+                },
+                {
+                    "blank": 18,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRowAttributes.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\FormRowSetUp.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "Form\\Generall\\PanelInputHandler.gd"
+                },
+                {
+                    "filename": "Form\\icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\icon.png.import"
+                },
+                {
+                    "blank": 22,
+                    "code": 188,
+                    "comment": 0,
+                    "filename": "Form\\Main.tscn"
+                },
+                {
+                    "blank": 9,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Form\\MainMenu.gd"
+                },
+                {
+                    "filename": "Form\\Media\\actor.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\actor.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\FixedSysTemplate.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Form\\Media\\items.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\items.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\kit.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\kit.png.import"
+                },
+                {
+                    "filename": "Form\\Media\\mainMenue.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\mainMenue.png.import"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "Form\\Media\\new_dynamicfont.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\backToMainManueButton.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\IntegerInput.tres"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Form\\Media\\presets\\StringInput.tres"
+                },
+                {
+                    "filename": "Form\\Media\\Title.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Form\\Media\\Title.png.import"
+                },
+                {
+                    "blank": 21,
+                    "code": 150,
+                    "comment": 0,
+                    "filename": "Form\\Node2D.tscn"
+                },
+                {
+                    "blank": 15,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Cache.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\baseTrigger.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\condition.gd"
+                },
+                {
+                    "blank": 13,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\space.gd"
+                },
+                {
+                    "blank": 8,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\specificTrigger.gd"
+                },
+                {
+                    "blank": 16,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\statMod.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Slots\\time.gd"
+                },
+                {
+                    "blank": 12,
+                    "code": 14,
+                    "comment": 2,
+                    "filename": "Form\\Parser\\Effect\\Effect Parts\\Unit.gd"
+                },
+                {
+                    "blank": 6,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\getter.gd"
+                },
+                {
+                    "blank": 15,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Hub.gd"
+                },
+                {
+                    "blank": 21,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "Form\\Parser\\Effect\\Syntax.gd"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Form\\project.godot"
+                },
+                {
+                    "blank": 36,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "Form\\Util.gd"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 48,
+                    "code": 54,
+                    "comment": 12,
+                    "filename": "VSCode Integration\\Keybindings.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 4,
+                    "filename": "VSCode Integration\\launch.json"
+                },
+                {
+                    "blank": 30,
+                    "code": 56,
+                    "comment": 2,
+                    "filename": "VSCode Integration\\README.md"
+                },
+                {
+                    "blank": 44,
+                    "code": 212,
+                    "comment": 56,
+                    "filename": "VSCode Integration\\Settings.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "VSCode Integration\\VSCdoe Snippets.json"
+                },
+                {
+                    "blank": 23,
+                    "code": 111,
+                    "comment": 5,
+                    "filename": "Websides\\About.html"
+                },
+                {
+                    "blank": 19,
+                    "code": 55,
+                    "comment": 5,
+                    "filename": "Websides\\assets\\contact-form-process.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "Websides\\assets\\css\\font-awesome.min.css"
+                },
+                {
+                    "filename": "Websides\\assets\\css\\images\\overlay.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\css\\images\\overlay.png.import"
+                },
+                {
+                    "blank": 147,
+                    "code": 593,
+                    "comment": 8,
+                    "filename": "Websides\\assets\\css\\main.css"
+                },
+                {
+                    "blank": 578,
+                    "code": 2143,
+                    "comment": 15,
+                    "filename": "Websides\\assets\\css\\responsive.css"
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.eot",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 655,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.svg"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.svg.import"
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\fontawesome-webfont.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "Websides\\assets\\fonts\\FontAwesome.otf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "Websides\\assets\\js\\jquery.min.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 45,
+                    "comment": 12,
+                    "filename": "Websides\\assets\\js\\main.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "Websides\\assets\\js\\skel.min.js"
+                },
+                {
+                    "blank": 187,
+                    "code": 325,
+                    "comment": 75,
+                    "filename": "Websides\\assets\\js\\util.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 83,
+                    "comment": 3,
+                    "filename": "Websides\\Blogpost.html"
+                },
+                {
+                    "blank": 14,
+                    "code": 67,
+                    "comment": 4,
+                    "filename": "Websides\\ContactUs.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 112,
+                    "comment": 4,
+                    "filename": "Websides\\Docs.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 127,
+                    "comment": 15,
+                    "filename": "Websides\\Home.html"
+                },
+                {
+                    "filename": "Websides\\images\\banner - Kopie.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner - Kopie.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner klein.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner klein.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\banner.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\banner.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\flowerpot.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\flowerpot.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\HomeTitle.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\HomeTitle.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\JSON.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\JSON.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\overworld.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\overworld.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic01.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic01.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic02.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic02.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic02.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic02.png.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic03.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic03.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic05.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic05.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic06.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic06.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pic07.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pic07.jpg.import"
+                },
+                {
+                    "filename": "Websides\\images\\pict1.PNG",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pict1.PNG.import"
+                },
+                {
+                    "filename": "Websides\\images\\pict2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "Websides\\images\\pict2.png.import"
+                },
+                {
+                    "blank": 12,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "Websides\\LICENSE.txt"
+                },
+                {
+                    "blank": 11,
+                    "code": 73,
+                    "comment": 6,
+                    "filename": "Websides\\Patch.html"
+                },
+                {
+                    "blank": 24,
+                    "code": 124,
+                    "comment": 4,
+                    "filename": "Websides\\Team.html"
+                }
+            ]
+        }
+    ]
+}

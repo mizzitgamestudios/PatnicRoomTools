@@ -1,0 +1,46 @@
+{
+
+  "LINEA"                    : { "toString":"Linea"                    , "inputModule":"SLIDER"     },
+  "SELECT"                   : { "toString":"Select"                   , "inputModule":"SLIDER"     },
+  "AREA"                     : { "toString":"Circle"                   , "inputModule":"SLIDER"     },
+  "LINEA"                    : { "toString":"Fetch"                    , "inputModule":"SLIDER"     },
+  "LINEA_AREA"               : { "toString":"Linea and than Circle"    , "inputModule":"SLIDER"     },
+  "CHANCE"                   : { "toString":"Chance by 100"            , "inputModule":"SLIDER"     },
+  "U_DEAL_PLAIN_DAMAGE"      : { "toString":"Deal Damage"              , "inputModule":"SLIDER"     },
+  "U_DEAL_STRUCTURAL_DAMAGE" : { "toString":"Deal structural Damage"   , "inputModule":"SLIDER"     },
+
+  "HAS_STAT"                 : { "toString":"Has Stat X compared to Y" , "inputModule":"COMPARATOR" },
+
+  "HAS_CONDITION"            : { "toString":"Has Condition"            , "inputModule":"TEXTURE"    },
+  "HAS_TEXTURE"              : { "toString":"Has Texture"              , "inputModule":"TEXTURE"    },
+  "U_CHANGE_TEXTURE"         : { "toString":"Spawn Tile"               , "inputModule":"TEXTURE"    },
+
+
+  "INTERACT_ACTOR"           : { "toString":"Interactables and Actors"                              },
+  "BASE"                     : { "toString":"just plain selected from above"                        },
+  "INTERACT_TILE"            : { "toString":"Interactables and Ground"                              },
+  "TILE_ACTOR"               : { "toString":"Actors and Ground"                                     },
+  "INTERACT"                 : { "toString":"Interactables"                                         },
+  "ACTOR"                    : { "toString":"Actors"                                                },
+  "TILE"                     : { "toString":"Ground"                                                },
+  "ALL"                      : { "toString":"Interactables and Ground and Actors"                   },
+
+
+  "SELF"                     : { "toString":"self"                                                  },
+  "U_MOVE_TILE"              : { "toString":"moves selected target"                                 },
+  "U_SPAWN_TILE"             : { "toString":"changes target by TextureID"                           },
+  "U_OPEN_DOOR"              : { "toString":"opens door"                                            },
+
+  "MEAT"                     : { "toString":"Meat"                                                  },
+  "MAGIC"                    : { "toString":"Magic"                                                 },
+  "MATRIX"                   : { "toString":"Matrix"                                                },
+
+  "U_CLOSE_DOOR"             : { "toString":"closes door"                                           }
+
+
+
+
+
+
+
+}

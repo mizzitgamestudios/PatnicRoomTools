@@ -1,0 +1,93 @@
+{
+  "KITS-BASE":[
+    "C_6_TILE_NAME",
+    "F_5_KITPART_TYPE",
+    "C_0_ANY_DESCRIPTION",
+    "C_35_KIT_MECHANICAL_SUMMARY",
+    "C_48_ANY_RARITY",
+
+    "C_37_ANY_M_TYPE",
+    "C_31_KIT_CAT_TYPE",
+    "C_38_KIT_PART_TYPE",
+    "C_36_KIT_MOD_TIME",
+    "C_33_KIT_COOLDOWN_TIMER",
+
+    "KEYWORD_EFFECT_BASE"
+  ],
+
+  "KITS-MOD":[
+    "C_6_TILE_NAME",
+    "F_5_KITPART_TYPE",
+    "C_0_ANY_DESCRIPTION",
+    "C_40_ANY_TO_STRING",
+    "C_35_KIT_MECHANICAL_SUMMARY",
+    "C_48_ANY_RARITY",
+
+    "C_37_ANY_M_TYPE",
+    "C_31_KIT_CAT_TYPE",
+    "C_38_KIT_PART_TYPE",
+    "C_36_KIT_MOD_TIME",
+    "C_33_KIT_COOLDOWN_TIMER",
+    "C_60_BASE_KIT_REFERENCE",
+
+    "KEYWORD_EFFECT_MOD"
+  ],
+
+  "KITS-APPENDIX":[
+    "C_37_ANY_M_TYPE",
+    "C_31_KIT_CAT_TYPE",
+    "C_38_KIT_PART_TYPE"
+  ],
+
+"----------------------------------":"----------------------------------",
+"----------------------------------":"----------------------------------",
+"----------------------------------":"----------------------------------",
+
+  "ACTORS-RACE":[
+    "F_11_ACTOR_ATTRIBUTES_RACE",
+    "C_6_TILE_NAME",
+    "C_0_ANY_DESCRIPTION",
+    "F_6_ACTOR_ATTRIBUTES",
+
+    "C_27_ACTOR_RACIAL_ENEMIES",
+    "C_28_ACTOR_RACIAL_FRIENDS",
+
+    "C_19_ACTOR_ATTRIBUTES"
+  ],
+
+  "ACTORS-SPECIALTY":[
+    "C_14_ACTOR_SPECIALTY_NAME" ,
+    "F_6_ACTOR_ATTRIBUTES",
+    "F_7_ACTOR_ATTRIBUTES_SPECIALTY",
+    "C_50_ACTOR_ROLE_DESCRIPTION",
+    "C_47_ANY_SYNONYM",
+    "C_6_TILE_NAME",
+
+    "C_19_ACTOR_ATTRIBUTES",
+    "C_20_ACTOR_SKILLBLOCK",
+  ],
+
+  "ACTORS-ROLE":[
+    "C_6_TILE_NAME",
+    "F_6_ACTOR_ATTRIBUTES",
+    "F_10_ACTOR_ATTRIBUTES_ROLES",
+    "C_0_ANY_DESCRIPTION",
+    "C_47_ANY_SYNONYM",
+
+    "C_19_ACTOR_ATTRIBUTES",
+    "C_20_ACTOR_SKILLBLOCK",
+],
+  "----------------------------------":"----------------------------------",
+  "----------------------------------":"----------------------------------",
+  "----------------------------------":"----------------------------------",
+
+  "ITEMS":[
+    "C_37_ANY_M_TYPE",
+    "C_31_KIT_CAT_TYPE",
+    "C_38_KIT_PART_TYPE"
+  ]
+
+
+
+
+}
