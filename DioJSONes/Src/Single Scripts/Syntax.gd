@@ -15,7 +15,7 @@ var mType             = ["MEAT","MAGIC","MATRIX"]
 var statMod           = []
 var conditions        = []
 
-var modules
+var modules           = []
 
 
 

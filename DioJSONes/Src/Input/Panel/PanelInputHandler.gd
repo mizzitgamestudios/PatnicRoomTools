@@ -7,6 +7,8 @@ var hintRTL: RichTextLabel
 var toolTip: String
 
 
+
+
 func _input(event: InputEvent) -> void:
 	if isMouseOnNode(self):
 		hintRTL.bbcode_text = toolTip

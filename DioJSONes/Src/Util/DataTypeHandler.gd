@@ -7,6 +7,7 @@ func getDataToString(dataType:String):
 		"INTEGER"    : return "(whole Number)"
 		"ARRAY"      : return "(List)"
 		"DICTIONARY" : return "(group)"
+		"BOOLEAN"    : return "true false"
 
 func getStyle(dataType:String):
 	match(dataType):
@@ -14,6 +15,9 @@ func getStyle(dataType:String):
 		"ARRAY"      : return load("res://Media/presets/IntegerInput.tres") 
 		"INTEGER"    : return load("res://Media/presets/StringInput.tres")
 		"DICTIONARY" : return load("res://Media/presets/IntegerInput.tres") 
+		"BOOLEAN"    : return load("res://Media/presets/IntegerInput.tres")
+
+
 
 func getWidth(dataType:String):
 	match(dataType):
@@ -21,6 +25,7 @@ func getWidth(dataType:String):
 		"INTEGER"    : return 200
 		"ARRAY"      : return 500
 		"DICTIONARY" : return 500
+		"BOOLEAN"    : return 100
 
 
 

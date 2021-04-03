@@ -1,6 +1,6 @@
 {
-  "TEXT"       : "res://Src/Simple Form Generator/Modules/Text.tscn ",
-  "SLIDER"     : "res://Src/Simple Form Generator/Modules/Slider.tscn",
+  "TEXTURE"       : "res://Src/Dynamic Form Generator/Modules/Text.tscn",
+  "SLIDER"     : "res://Src/Dynamic Form Generator/Modules/Slider.tscn",
   "COMPARATOR" : "res://Src/Dynamic Form Generator/Modules/Comparator.tscn",
   "OPTION_BOX" : "res://Src/Dynamic Form Generator/Modules/OptionBox.tscn"
 

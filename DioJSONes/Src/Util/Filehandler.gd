@@ -14,12 +14,12 @@ func fileToDictionary(filepath:String):
 
 
 func printForm(dict:Dictionary):
+	var filepath = Bootstrap.getFilepathToSave(dict["C_6_TILE_NAME"])
 	var file = File.new()
-	file.open("foobar.txt",File.WRITE)
+	file.open(filepath,File.WRITE)
 	file.store_string(to_json(dict))
 	file.close()
 	print(dict)
-
 
 
 

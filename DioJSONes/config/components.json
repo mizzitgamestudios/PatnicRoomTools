@@ -550,5 +550,15 @@
   "validType": "STRING",
   "nameToShow": "role description",
   "componentName": "C_62_LOOT_STATE"
+ },
+ {
+  "suggestion": "",
+  "description": "can spread fire",
+  "validInputs": [
+
+  ],
+  "validType": "BOOLEAN",
+  "nameToShow": "is burnable",
+  "componentName": "C_63_IS_BURNABLE"
  }
 ]

@@ -11,16 +11,18 @@ func buildGameElement():
 	var dict = {}
 	
 	for i in allComponents.size():
-		dict[allComponents[i].componentName] = allComponents[i].input.inputContent
+		var curentEntry = allComponents[i]
+		var input = curentEntry.scene.get_node("inputPanel/input")
+		
+		if input is RichTextLabel: input = input.bbcode_text
+		if input is OptionButton: input = input.get_item_text(input.get_selected_id())
+		
+		dict[curentEntry.componentName] = input
 	
-	dict["C_49_EFFECT_REFERENCE"] = cachedEffectToDict()
 	
+	dict["C_49_EFFECT_REFERENCE"] = cachedEffectToDict() 
+	dict = organiceGenerall(dict)
 	return dict
-
-
-
-func buildComponentDict():
-	var test = Parser.allComponents
 
 
 
@@ -42,33 +44,38 @@ func cachedEffectToDict():
 		dict["SPACE-"+str(i)] = { "MEDIUM":currenteffect.spaceMedium , "SOURCE":currenteffect.spaceSource , "REACH":currenteffect.spaceReach , "M_TYPE":currenteffect.spaceMType }
 		
 		dict["TRIGGER-"+str(i)] = { "BASE"  :currenteffect.triggerBase     , "SPECIFIC" :  currenteffect.triggerSpecific  } 
-		dict["EFFECT-"+str(i) ] = { "BASE"  :currenteffect.effectCondition , "STAT_MOD" : [ currenteffect.effectStatmod   ] } 
+		dict["EFFECT-"+str(i) ] = { "CONDITION"  :currenteffect.effectCondition , "STAT_MOD" : [ currenteffect.effectStatmod   ] } 
 		
 		dictSum.append(dict)
-		
-	return organiceDict(dictSum)
+	
+	
+	return dictSum
 
 
 
-func organiceDict(dictSum):
+func organiceEffect(dictSum):
 	var unitsToParse = ["TIME","SPACE","TRIGGER","EFFECT"]
 	var dict = {}
 		
 	for j in unitsToParse.size():
 		var unit = {}
+		var unitToKey
 		for i in 4:
 			
-			var unitToKey   = unitsToParse[j]+"-"+str(i)
+			var unitToString = unitsToParse[j]+"-"+str(i)
 			
-			var cache       = dictSum[i][unitToKey]
+			var cache       = dictSum["C_49_EFFECT_REFERENCE"][i][unitToString]
 			unit[unitToKey] = cache
 			
-		dict[unitsToParse[j]] = unit
+		dict[unitToKey] = unit
 		
 	return dict
 
 
+func organiceGenerall(dict):
+	dict["C_40_ANY_TO_STRING"] = dict["C_6_TILE_NAME"]
+	return dict
 
 
 
-
+ 

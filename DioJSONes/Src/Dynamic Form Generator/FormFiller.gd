@@ -19,12 +19,22 @@ func fillForm():
 	for i in componentsToFill.size():
 		var currentComp      = componentsToFill[i]
 		
-		var entryInstance    = load("res://Src/Dynamic Form Generator/FormRow.tscn").instance()
-		var currentFormField = FormFieldAttributes.new(currentComp,i,entryInstance)
+		var currentFormFiel
+		var entryInstance 
+		var currentFormField
+		
+		if currentComp.has("validInputs") and currentComp["validInputs"].size() > 0:
+			entryInstance = load("res://Src/Dynamic Form Generator/Form Box.tscn").instance()
+			currentFormField = FormFieldAttributes.new(currentComp,i,entryInstance)
+			formRoot.add_child(entryInstance)
+			entryInstance.initialice(currentFormField, hintRTIL,currentComp["validInputs"])
 		
 		
-		formRoot.add_child(entryInstance)
-		entryInstance.initialice(currentFormField, hintRTIL)
+		else:
+			entryInstance = load("res://Src/Dynamic Form Generator/RowText.tscn").instance()
+			currentFormField = FormFieldAttributes.new(currentComp,i,entryInstance)
+			formRoot.add_child(entryInstance)
+			entryInstance.initialice(currentFormField, hintRTIL)
 		
 		
 		lastPosY               = currentFormField.pos.y

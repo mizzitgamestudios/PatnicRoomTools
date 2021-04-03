@@ -2,7 +2,7 @@ extends Node2D
 
 
 func _ready() -> void:
-	var dict                   = Utils.fileToDictionary("res://config/Bootstrap.json")
+	var dict                   = Utils.fileToDictionary("res://Bootstrap.json")
 	Utils.filePathToPatnicroom = dict["filepath to the P@nicRoom Rootfolder"]
 
 

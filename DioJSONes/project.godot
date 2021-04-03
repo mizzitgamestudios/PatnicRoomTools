@@ -103,6 +103,7 @@ Parser="*res://Src/Single Scripts/Parser.gd"
 Caching="*res://Src/Parsing/Caching.gd"
 ENUM="*res://Src/Single Scripts/ENUM.gd"
 SYNTAX="*res://Src/Single Scripts/Syntax.gd"
+Bootstrap="*res://Src/Bootstrap.gd"
 
 [display]
 

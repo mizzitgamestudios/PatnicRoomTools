@@ -57,3 +57,21 @@ func _on_button_pressed() -> void:
 
 
 
+
+
+func _on_Iten_Selected(index:int):
+	var cache = SYNTAX.modules
+	var selectedItem = get_item_text(index)
+	var cacheThree = SYNTAX.masterAtlas
+	selectedItem = SYNTAX.crossReferenceInputKeyword[selectedItem]
+	var cacheTwo = cacheThree[selectedItem]
+	cacheTwo = cacheTwo["inputModule"]
+	cacheTwo = cache[cacheTwo]
+	var toLoad = load(cacheTwo)
+	toLoad = toLoad.instance()
+	#get_tree().current_scene.add_child(toLoad)
+	get_parent().add_child(toLoad)
+	inputNode = toLoad
+
+
+

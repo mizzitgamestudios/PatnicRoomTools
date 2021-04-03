@@ -1,5 +1,5 @@
 extends Node
-class_name Parent_Form
+class_name Parent_Form	
 
 func _ready() -> void:
 	var formBuilder = FormFiller.new(self,Utils.componentsToLoad)

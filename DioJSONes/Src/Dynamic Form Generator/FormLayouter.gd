@@ -8,16 +8,13 @@ onready var inputRTL       : RichTextLabel = get_node("inputRTL")
 onready var inputMarker    : Panel         = get_node("inputPanel")
 
 
-func initialice(field:FormFieldAttributes,hintRTLPara:RichTextLabel):
+func initialice(field:FormFieldAttributes,hintRTLPara:RichTextLabel,item:Array=[]):
 	drawSeperator(field)
 	
 	setUpRTLRows(field)
-	markInputField(field,hintRTLPara)
+	markInputField(field,hintRTLPara) 
 	
-	Syntax_Effect
-
-
-	
+	if item.size()>0:   get_node("inputPanel/input").initialice(item)
 
 
 
@@ -49,6 +46,7 @@ func markInputField(field,hintRTLPara):
 	inputMarker.rect_size     = field.size
 	
 	inputMarker.add_stylebox_override("panel",field.style)
+
 
 
 

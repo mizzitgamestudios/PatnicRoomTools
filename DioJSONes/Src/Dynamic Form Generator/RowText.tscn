@@ -75,7 +75,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="inputRTL" type="RichTextLabel" parent="inputPanel"]
+[node name="input" type="RichTextLabel" parent="inputPanel"]
 margin_left = 8.0
 margin_right = 512.0
 margin_bottom = 20.0

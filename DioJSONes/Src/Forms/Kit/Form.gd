@@ -29,8 +29,15 @@ func checkAndSaveForm() -> void:
 		Parser.cachedEffectSet.append( Caching.cacheEffect(currentTimeSlot,timeslots) )
 	
 	var dict = Parser.buildGameElement()
+	appendFlag(dict)
 	Utils.printJSON(dict)
 
+
+
+func appendFlag(dict):
+	dict["C_40_ANY_TO_STRING"] = dict["C_6_TILE_NAME"]
+	dict["F_5_KITPART_TYPE"] = "N/A"
+	return dict
 
 
 

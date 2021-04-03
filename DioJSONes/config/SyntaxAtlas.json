@@ -27,15 +27,15 @@
 
 
   "SELF"                     : { "toString":"self"                                                  },
-  "U_MOVE_TILE"              : { "toString":"moves selected target"                                 },
-  "U_SPAWN_TILE"             : { "toString":"changes target by TextureID"                           },
-  "U_OPEN_DOOR"              : { "toString":"opens door"                                            },
+  "U_MOVE_TILE"              : { "toString":"moves selected target"      , "inputModule":"TEXTURE"                           },
+  "U_SPAWN_TILE"             : { "toString":"changes target by TextureID"       , "inputModule":"TEXTURE"                    },
+  "U_OPEN_DOOR"              : { "toString":"opens door"       , "inputModule":"TEXTURE"                                     },
 
   "MEAT"                     : { "toString":"Meat"                                                  },
   "MAGIC"                    : { "toString":"Magic"                                                 },
   "MATRIX"                   : { "toString":"Matrix"                                                },
 
-  "U_CLOSE_DOOR"             : { "toString":"closes door"                                           }
+  "U_CLOSE_DOOR"             : { "toString":"closes door"            , "inputModule":"TEXTURE"                               }
 
 
 

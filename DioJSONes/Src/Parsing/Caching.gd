@@ -55,10 +55,11 @@ func manageEffects(currentKeyword,currentValue,cache):
 	elif conditions.has(currentKeyword): cache.effectCondition.append([currentKeyword,currentValue])
 
 
-func manageSpecificTrigger(currentValue,currentKeyword,cache):
+func manageSpecificTrigger(currentKeyword,cache,currentValue=""):
 	var arrForCache = []
-	for i in currentValue.size():
-		var currentEntry = currentValue[i]
+	var specific = currentValue.triggerSpecific
+	for i in specific.size():
+		var currentEntry = specific[i]
 		
 		
 		if str(currentEntry[1]) == " " and currentEntry[0] == 0: arrForCache.append(["BASE","BASE"])
@@ -67,7 +68,7 @@ func manageSpecificTrigger(currentValue,currentKeyword,cache):
 			var keyword = SYNTAX.GET_TRIGGER_SPECIFIC()[currentEntry[0]]
 			arrForCache.append([keyword,currentEntry[1]])
 	
-	cache.triggerSpecific = arrForCache
+	currentValue.triggerSpecific = arrForCache
 
 
 
