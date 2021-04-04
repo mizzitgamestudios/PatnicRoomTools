@@ -20,6 +20,10 @@ func _input(event: InputEvent) -> void:
 		inputContent += event.as_text()
 		bbcode_text   = inputContent
 	
+	print(event.as_text())
+	if event.is_action("delete"):
+		if isMouseOnNode(corespondingPanel):
+			bbcode_text.erase(bbcode_text.length()-10,5)
 	
 	if isMouseOnNode(corespondingPanel):  
 		corespondingPanel.add_stylebox_override("panel",highlightStyle)
@@ -33,8 +37,8 @@ func _input(event: InputEvent) -> void:
 
 func isTextInput(event):        return isMouseOnNode(corespondingPanel) and inputMode and event is InputEventKey and event.is_pressed()
 func isTextFieldClicked(event): return isMouseOnNode(corespondingPanel) and event.is_action("leftClick")
-
-
+func isDeleteInput(event):     
+	return isMouseOnNode(corespondingPanel)and event.is_action("delete")
 func isMouseOnNode(node):
 	var minVec          = node.rect_global_position
 	var cacheSizeOfRect = Vector2(node.get_end().x-node.get_begin().x,node.get_end().y-node.get_begin().y)

@@ -22,7 +22,7 @@ var style:            StyleBoxFlat
 var scene:            Node2D
 
 
-func _init(dict:Dictionary,numberofField:int,scenePara:Node2D) -> void:
+func initialice(dict:Dictionary,numberofField:int,scenePara:Node2D) -> void:
 	setByDictionary(dict)
 	var width        = Utils.getWidth(validType)
 	

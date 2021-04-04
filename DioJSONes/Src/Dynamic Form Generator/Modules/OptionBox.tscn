@@ -20,7 +20,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="OptionButton" type="OptionButton" parent="marker"]
+[node name="input" type="OptionButton" parent="marker"]
 margin_left = 7.0
 margin_top = 8.0
 margin_right = 223.0

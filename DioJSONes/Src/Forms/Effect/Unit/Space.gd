@@ -33,14 +33,19 @@ func fillMorphBoxes():
 
 func on_cache_All_Data():
 	var arr = [medium,source,mType]
-	for i in arr.size():
-		var select = arr[i].getSelectToString()
-		listOfInputs[i] = SYNTAX.INPUT_TO_KEYWORD(select)
+	var selects = ["","","",""]
 	
-	Parser.allNodes["reach"]   = ""
-	Parser.allNodes["medium"]  = listOfInputs[0]
-	Parser.allNodes["source"]  = listOfInputs[3]
-	Parser.allNodes["mType"]   = listOfInputs[2]
+	
+	for i in arr.size():
+		
+		var select = arr[i].getSelectToString()
+		selects[i] = SYNTAX.INPUT_TO_KEYWORD(select)
+	
+	
+	Parser.allNodes["reach"]   = selects[0]
+	Parser.allNodes["medium"]  = selects[1]
+	Parser.allNodes["source"]  = selects[2]
+	Parser.allNodes["mType"]   = selects[3]
 
 
 

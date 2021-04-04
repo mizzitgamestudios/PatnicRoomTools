@@ -15,12 +15,13 @@ func buildGameElement():
 		var input = curentEntry.scene.get_node("inputPanel/input")
 		
 		if input is RichTextLabel: input = input.bbcode_text
-		if input is OptionButton: input = input.get_item_text(input.get_selected_id())
-		
-		dict[curentEntry.componentName] = input
+		if input is OptionButton: input  = input.get_item_text(input.get_selected_id())
+		dict[curentEntry.componentName]  = input
 	
 	
 	dict["C_49_EFFECT_REFERENCE"] = cachedEffectToDict() 
+	
+	dict = organiceEffect(dict)
 	dict = organiceGenerall(dict)
 	return dict
 
@@ -55,25 +56,30 @@ func cachedEffectToDict():
 
 func organiceEffect(dictSum):
 	var unitsToParse = ["TIME","SPACE","TRIGGER","EFFECT"]
-	var dict = {}
+	var dictToReturn = {}
+	
+	var entry = {}
+	var slot
+	
+	
+	for i in unitsToParse.size():
+		slot  = unitsToParse[i]
+		for j in 4:
+			
+			var unitToString = unitsToParse[i]+"-"+str(j)
+			entry[unitToString] = dictSum["C_49_EFFECT_REFERENCE"][j][unitToString]
 		
-	for j in unitsToParse.size():
-		var unit = {}
-		var unitToKey
-		for i in 4:
-			
-			var unitToString = unitsToParse[j]+"-"+str(i)
-			
-			var cache       = dictSum["C_49_EFFECT_REFERENCE"][i][unitToString]
-			unit[unitToKey] = cache
-			
-		dict[unitToKey] = unit
-		
-	return dict
+		dictToReturn[slot] = entry
+		entry = {}
+	
+	dictSum["C_49_EFFECT_REFERENCE"] = dictToReturn
+	
+	return dictSum
 
 
 func organiceGenerall(dict):
 	dict["C_40_ANY_TO_STRING"] = dict["C_6_TILE_NAME"]
+	dict["C_37_M_TYPE"]        = dict["C_49_EFFECT_REFERENCE"]["SPACE"]["SPACE-0"]["M_TYPE"]
 	return dict
 
 

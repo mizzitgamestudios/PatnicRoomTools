@@ -19,6 +19,8 @@ func _input(event: InputEvent) -> void:
 		inputContent += event.as_text()
 		bbcode_text   = inputContent
 	
+	if isDeleteInput(event):
+		bbcode_text.erase(bbcode_text.length()-1,1)
 	
 	if isMouseOnNode(corespondingPanel):  
 		corespondingPanel.add_stylebox_override("panel",highlightStyle)
@@ -31,7 +33,7 @@ func _input(event: InputEvent) -> void:
 
 func isTextInput(event):        return isMouseOnNode(corespondingPanel) and inputMode and event is InputEventKey and event.is_pressed()
 func isTextFieldClicked(event): return isMouseOnNode(corespondingPanel) and event.is_action("leftClick")
-
+func isDeleteInput(event):      return isTextInput(event) and event.as_text() == "BackSpace"
 
 
 func isMouseOnNode(node):

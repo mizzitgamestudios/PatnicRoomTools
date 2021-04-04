@@ -25,14 +25,16 @@ func fillForm():
 		
 		if currentComp.has("validInputs") and currentComp["validInputs"].size() > 0:
 			entryInstance = load("res://Src/Dynamic Form Generator/Form Box.tscn").instance()
-			currentFormField = FormFieldAttributes.new(currentComp,i,entryInstance)
+			currentFormField = FormFieldAttributes.new()
+			currentFormField.initialice(currentComp,i,entryInstance)
 			formRoot.add_child(entryInstance)
 			entryInstance.initialice(currentFormField, hintRTIL,currentComp["validInputs"])
 		
 		
 		else:
 			entryInstance = load("res://Src/Dynamic Form Generator/RowText.tscn").instance()
-			currentFormField = FormFieldAttributes.new(currentComp,i,entryInstance)
+			currentFormField = FormFieldAttributes.new()
+			currentFormField.initialice(currentComp,i,entryInstance)
 			formRoot.add_child(entryInstance)
 			entryInstance.initialice(currentFormField, hintRTIL)
 		

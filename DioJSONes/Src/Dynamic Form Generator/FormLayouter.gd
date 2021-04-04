@@ -4,14 +4,15 @@ onready var nameRTL        : RichTextLabel = get_node("nameRTL")
 onready var typeRTL        : RichTextLabel = get_node("typeRTL")
 onready var descriptionRTL : RichTextLabel = get_node("descriptionRTL")
 
-onready var inputRTL       : RichTextLabel = get_node("inputRTL")
 onready var inputMarker    : Panel         = get_node("inputPanel")
+onready var inputRTL        = inputMarker.get_node("inputRTL")
 
 
 func initialice(field:FormFieldAttributes,hintRTLPara:RichTextLabel,item:Array=[]):
 	drawSeperator(field)
 	
 	setUpRTLRows(field)
+	inputRTL = get_node("inputPanel/input")
 	markInputField(field,hintRTLPara) 
 	
 	if item.size()>0:   get_node("inputPanel/input").initialice(item)

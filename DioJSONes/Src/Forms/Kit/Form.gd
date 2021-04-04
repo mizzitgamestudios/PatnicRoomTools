@@ -10,7 +10,10 @@ func _ready() -> void:
 	.add_child(effectForm)
 	
 	timeslots = get_node("Effect/timeslots")
-	
+
+func _input(event): 
+	if CheckUp.fullCheckUp() != true: get_node("checkAndSave").visible = true
+	else: get_node("checkAndSave").visible = false
 
 
 func openByArrayNr(nr:int):
@@ -36,7 +39,7 @@ func checkAndSaveForm() -> void:
 
 func appendFlag(dict):
 	dict["C_40_ANY_TO_STRING"] = dict["C_6_TILE_NAME"]
-	dict["F_5_KITPART_TYPE"] = "N/A"
+	dict["F_5_KITPART_TYPE"]   = "N/A"
 	return dict
 
 

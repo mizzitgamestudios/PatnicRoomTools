@@ -4,7 +4,6 @@
 [ext_resource path="res://Src/Input/RTL/inputEffectRTL.gd" type="Script" id=2]
 [ext_resource path="res://Media/presets/formEffectDefualt.tres" type="DynamicFont" id=3]
 
-
 [node name="TextInput" type="Node2D"]
 
 [node name="Panel" type="Panel" parent="."]
